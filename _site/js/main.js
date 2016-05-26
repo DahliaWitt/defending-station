@@ -78,6 +78,9 @@
 				});
 
 		// Header.
+		
+		$("a.youtube").YouTubePopup({ autoplay: 0 });
+		
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');
 
